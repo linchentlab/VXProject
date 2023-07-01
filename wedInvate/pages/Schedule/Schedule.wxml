@@ -1,0 +1,7 @@
+<view class="schedule-container">
+  <view class="schedule-header">婚礼日程安排</view>
+  <view class="schedule-item" wx:for="{{ scheduleList }}" wx:key="index">
+    <view class="schedule-time">{{ item.time }}</view>
+    <view class="schedule-text">{{ item.text }}</view>
+  </view>
+</view>

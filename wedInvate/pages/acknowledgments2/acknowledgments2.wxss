@@ -1,0 +1,6 @@
+.text1 {
+  margin: auto;
+  text-align: left;
+  font-size: medium;
+  color: brown;
+}

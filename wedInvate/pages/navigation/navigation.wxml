@@ -1,0 +1,7 @@
+<!-- 以下是导航部分 -->
+<view class='list-guide'>
+    <view bindtap="onGuideTap" data-latitude='28.31933' data-longitude='113.0825' data-bankName='最高人民检察院'>
+        <image src='https://pic.imgdb.cn/item/64871e731ddac507cc503d33.png' class='list-guide-imgae'></image>
+        <text class='list-guide-text'>导航</text>
+    </view>
+</view>

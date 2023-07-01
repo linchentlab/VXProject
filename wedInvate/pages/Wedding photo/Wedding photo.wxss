@@ -1,0 +1,10 @@
+/* pages/Wedding photo/Wedding photo.wxss */
+.page {
+  background-color: brown;
+}
+.imageCent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; left: 95rpx; top: 397rpx
+}

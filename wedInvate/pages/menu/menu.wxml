@@ -1,0 +1,14 @@
+<view class="menu-container">
+  <view class="menu-header">婚宴菜单</view>
+  <view>滑动以查看菜单</view>
+  <scroll-view class="menu-list" scroll-y="true">
+    <view class="menu-item" wx:for="{{menuList}}" wx:key="index">
+      <view class="menu-text">
+        <view class="menu-title">{{item.title}}</view>
+        <view class="menu-desc">{{item.desc}}</view>
+        <view class="menu-price">¥{{item.price}}</view>
+      </view>
+    </view>
+  </scroll-view>
+  <button class="btn" bindtap="gotoInvate">返回上一页</button>
+</view>

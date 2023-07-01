@@ -1,0 +1,107 @@
+.image {
+  width: 100vw;
+  height: 100vh;
+  position: flex;
+  z-index: 1;
+}
+
+.poster-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 540rpx;
+  height: 960rpx;
+  position: relative;
+}
+
+.poster-bg {
+  width: 540rpx;
+  height: 960rpx;
+  position: absolute;
+}
+
+.poster-title {
+  position: relative; 
+  left: 99rpx; 
+  top: -192rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: rgb(134, 34, 34);
+  margin: 360rpx 0 0 0;
+  text-align: center;
+  z-index: 9;   /*设置显示的优先级*/ 
+ 
+}
+
+.poster-date {
+  left: -76rpx; 
+  top: 312rpx;
+  position: relative; 
+  font-size: 28rpx;
+  color: rgb(156, 42, 42);
+  margin: 30rpx 0;
+  z-index: 9;
+}
+
+.poster-location {
+  display: block; 
+  left: 34rpx; 
+  top: 312rpx; 
+  width: 393rpx; 
+  height: 183rpx;
+  box-sizing: border-box; 
+  position: relative; 
+  font-size: 28rpx;
+  color: rgb(156, 42, 42);
+  margin-bottom: 40rpx;
+  box-sizing: border-box;
+  z-index: 9;
+}
+
+.poster-qrcode {
+  position: absolute; 
+  left: 0rpx; 
+  top: -12rpx;
+  width: 100vw;
+  height: 100vh;
+  bottom: 40rpx;
+  right: 40rpx;
+}
+
+.poster-WeddingMsg1 {
+  width: 416rpx; 
+  height: 36rpx; 
+  display: block; 
+  box-sizing: border-box; 
+  left: 34rpx; 
+  top: -123rpx; 
+  position: relative;
+  z-index: 9; 
+  font-size: 200%;
+  font-family: Georgia;
+  font-family: Arial;
+  color: brown;
+ 
+}
+
+.poster-WeddingMsg2 {
+  z-index: 9; 
+  left: 35rpx; 
+  top: 183rpx;
+  font-size: 200%;
+  font-family: Georgia;
+  font-family: Arial;
+  color: brown;
+  position: relative;
+}
+
+.btn_forInvate {
+  position: relative; 
+  left: 69rpx; 
+  top: 283rpx;
+  margin-top: 20px;
+  border-radius: 98rpx;
+  background-color: brown;
+  color: white;
+}

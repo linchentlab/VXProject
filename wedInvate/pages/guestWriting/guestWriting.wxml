@@ -1,0 +1,8 @@
+<view class="entity">
+  <view >
+  <textarea value="" class="textAea" placeholder="请备注您的留言:"/>
+  </view>
+  <button class="btn1" bindtap="gotoMine">提交</button>
+  <button class="btn1" bindtap="gotoMine">个人中心</button>
+  <button class="btn1" bindtap="loginOut">退出登录</button>
+</view>

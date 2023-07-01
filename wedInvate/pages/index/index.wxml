@@ -1,0 +1,9 @@
+<view class="poster-container">
+  <image class="poster-qrcode" src="https://pic.imgdb.cn/item/64871eaa1ddac507cc512996.jpg" />
+  <text class="poster-title">Mr.张 & Mrs.张 \n Wedding Invitation</text>
+  <text class="poster-WeddingMsg1">梧桐枝上栖双凤</text>
+  <text class="poster-WeddingMsg2">菡萏花间立并鸳</text>
+  <button class="btn_forInvate" bindtap="gotoInvate">点此跳转</button>
+  <text class="poster-date">June 09, 2023</text>
+  <text class="poster-location">地点：湖南省XX市XX区XX酒店</text>
+</view>

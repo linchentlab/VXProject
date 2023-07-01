@@ -1,0 +1,8 @@
+<view class="text1">
+  恭喜您提交成功！
+</view>
+<view>
+  <button class="btn1" bindtap="gotoMine">返回</button>
+  <button class="btn1" bindtap="clear">退出登录</button>
+  <button class="btn1" bindtap="gotoGuestWriting">来宾留言</button>
+</view>

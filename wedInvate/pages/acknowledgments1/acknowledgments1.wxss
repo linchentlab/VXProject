@@ -1,0 +1,6 @@
+.view > text {
+  margin: auto;
+  text-align: center;
+  font-size: medium;
+  color: brown;
+}

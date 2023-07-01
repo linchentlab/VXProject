@@ -1,0 +1,18 @@
+<view class="invitation-container">
+  <view class="invitation-header">{{brideName}}&{{groomName}}的婚礼邀请函</view>
+  <view class="invitation-text">
+    {{brideName}}&{{groomName}}相识于{{meetDate}}，从此展开了一段美丽的爱情故事。
+  </view>
+  <scroll-view class="love-list" scroll-y="true">
+    <view class="love-item" wx:for="{{loveList}}" wx:key="index">
+      <image class="love-image" src="{{item.image}}" />
+      <view class="love-text">
+        <view class="love-date">{{item.date}}</view>
+        <view class="love-desc">{{item.desc}}</view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="invitation-text">
+    此时此刻，我们邀请您见证这段既浪漫又真挚的爱情，一起来参加我们的婚礼吧！
+  </view>
+</view>

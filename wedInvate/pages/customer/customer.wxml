@@ -1,0 +1,14 @@
+<image src="https://pic.imgdb.cn/item/64871eaa1ddac507cc51293c.png"></image>
+<view class="customer1">
+  <form bindsubmit="onSubmit">
+    <input type="text" placeholder="输入您的姓名" />
+    <input type="number" placeholder="输入您的手机号码" />
+    <view class="customer2">
+      <picker range="{{array}}" value="{{selectindex}}" bindchange="onPicker">
+        参加人数:{{array[selectindex]}}
+      </picker>
+    </view>
+    <textarea placeholder="输入您的祝福语"></textarea>
+    <button form-type="submit">提交</button>
+  </form>
+</view>

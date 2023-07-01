@@ -1,0 +1,56 @@
+<view class="invate1">
+  <image src="https://pic.imgdb.cn/item/64871e481ddac507cc4fcf9c.png"></image>
+</view>
+<view class="invate2">
+  <view>
+    <image src="https://pic.imgdb.cn/item/64871e491ddac507cc4fd053.png" bindtap="onPlayMusic" class="invate1-{{isPlayMusic ? 'rotate' : ''}}">
+    </image>
+  </view>
+  <view class="invate2_1">
+    <view>
+      <view class="invate3">邀请函</view>
+      <view class="invate4">
+        <view>
+          <view class="invatelove">
+            <image src="https://pic.imgdb.cn/item/64871e481ddac507cc4fcfac.png" class="invateimg1"></image>
+          </view>
+          <view class="invateimg">
+            <image src="https://pic.imgdb.cn/item/64871eaa1ddac507cc5129b9.jpg" class="invateimg2"></image>
+          </view>
+          <view class="invatelove">
+            <image src="https://pic.imgdb.cn/item/64871e481ddac507cc4fcfac.png" class="invateimg1"></image>
+          </view>
+        </view>
+      </view>
+      <view class="invate5">
+        <view>
+          <view class="invate5_1">
+            <view>
+              <view>张先生</view>
+              <view>新郎</view>
+            </view>
+            <image src="https://pic.imgdb.cn/item/6487cb5f1ddac507cc085a53.png" class="invatecell" bindtap="gotoAck2"></image>
+          </view>
+          <view>
+            <image src="https://pic.imgdb.cn/item/64871e491ddac507cc4fd117.png" class="invatename" bindtap="gotoWedPhoto"></image>
+          </view>
+          <view class="invate5_1">
+            <view>
+              <view>张女士</view>
+              <view>新娘</view>
+            </view>
+            <image src="https://pic.imgdb.cn/item/6487cb5f1ddac507cc085a53.png" class="invatecell" bindtap="gotoAck2"></image>
+          </view>
+        </view>
+      </view>
+      <view class="invate6">我们诚邀您来参加我们的婚礼</view>
+      <view class="invate6">
+        <view style="text-align: center;">时间：2023年6月20日</view>
+        <button class="btn" bindtap="gotoSchedule">日程安排</button>
+        <button class="btn" bindtap="gotoCountDown">倒计时</button>
+        <view class="invate7" style="position: relative; left: 0rpx; top: 21rpx">地点：湖南省XX市XX区XX酒店</view>
+        <button class="button-30" bindtap="gotoMenu" style="position: relative; left: 34rpx; top: -1019rpx">菜单</button>
+      </view>
+    </view>
+  </view>
+</view>

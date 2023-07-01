@@ -1,0 +1,30 @@
+.enetity { 
+  margin: auto;
+  display: flex;
+  
+}
+
+.text1 {
+  text-align: center;
+  margin: auto;
+  color: red;
+
+}
+
+.textAea {
+  border: solid 4rpx rgb(182, 201, 235);
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+  height: 100rpx;
+  width: 100%;
+  font-size:9pt;
+  font-family:verdana;
+  color:#333333
+}
+
+.btn1 {
+  margin-top: 20px;
+  border-radius: 98rpx;
+  background-color: #2b4b6b;
+  color: white;
+}

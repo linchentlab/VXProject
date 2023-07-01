@@ -1,0 +1,22 @@
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.countdown-text {
+  font-size: 28rpx;
+  margin-bottom: 30rpx;
+}
+
+.countdown-time {
+  display: flex;
+}
+
+.countdown-time view {
+  font-size: 20rpx;
+  margin-right: 10rpx;
+  color: #333;
+}

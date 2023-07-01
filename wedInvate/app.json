@@ -1,0 +1,63 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/invate/invate",   
+    "pages/photo/photo",
+    "pages/time/time",
+    "pages/map/map",
+    "pages/mine/mine",
+    "pages/info/info",
+    "pages/Schedule/Schedule",
+    "pages/countDown/countDown",
+    "pages/guestWriting/guestWriting",
+    "pages/menu/menu",
+    "pages/Couple Profile/Couple Profile",
+    "pages/wonderfulmoment/wonderfulmoment",
+    "pages/services/services",
+    "pages/navigation/navigation",
+    "pages/acknowledgments1/acknowledgments1",
+    "pages/acknowledgments2/acknowledgments2",
+    "pages/sharing/sharing",
+    "pages/Wedding photo/Wedding photo"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wedding invating letter",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#ff4c91",
+    "borderStyle": "black",
+    "backgroundColor":"#fff",
+    "list": 
+    [{
+        "pagePath": "pages/index/index",
+        "iconPath": "./icon/信封.png",
+        "selectedIconPath": "./icon/信封1.png",
+        "text": "邀请函"
+      },
+      {
+        "pagePath": "pages/photo/photo","iconPath": "./icon/照片.png","selectedIconPath": "./icon/照片1.png","text": "照片"
+      },
+      {
+        "pagePath": "pages/time/time",
+        "iconPath": "./icon/视频.png",
+        "selectedIconPath": "./icon/视频1.png",
+        "text": "美好时光"
+      },
+      {"pagePath": "pages/map/map",
+        "iconPath": "./icon/地图.png",
+        "selectedIconPath": "./icon/地图1.png",
+        "text": "地图"
+      },
+      {"pagePath": "pages/mine/mine",
+        "iconPath": "./icon/人员信息.png",
+        "selectedIconPath": "./icon/人员信息1.png",
+        "text": "个人中心"
+      }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["audio", "location"] 
+}

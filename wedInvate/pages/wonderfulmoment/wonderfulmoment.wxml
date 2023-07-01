@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="upload">
+    <button class="btn-upload" bindtap="uploadPhoto">上传照片</button>
+  </view>
+  <image class="image-preview" src="{{imageSrc}}" mode="aspectFit" wx:if="{{showImage}}" bindtap="hideImage"></image>
+</view>

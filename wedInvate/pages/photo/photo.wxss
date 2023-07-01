@@ -1,0 +1,6 @@
+.photo>swiper{height: 100vh;}     
+.photo image{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}

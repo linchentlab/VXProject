@@ -1,0 +1,49 @@
+<view class="backGround"></view>
+<!-- 未登录时的页面 -->
+<block wx:if="{{hiddenBlean1}}">
+  <view class="container-out">
+      <view class="faceOut"></view>
+      <view class="textout">
+          <view class="word1">
+               <text>未登录</text>
+          </view>
+          <view class="word2">
+               <text>请点击登陆后使用全部功能</text>
+          </view>
+      </view>
+  </view>
+  <button bindtap="getUersProfile" class="btn">登录</button>
+</block>
+<!-- 登录后的界面 -->
+<block wx:if="{{hiddenBlean2}}">
+  <view class="container-in">
+    <image src="{{avatarUrl}}" class="touxiang"></image>
+    <view class="wenZi">
+       <view class="word3">
+          {{nickName}}
+       </view>
+       <view class="word4">
+          您好！！
+       </view>
+    </view>
+  </view>
+  <view>
+    <view class="num1">
+      <form bindsubmit="onSubmit">
+        <input type="text" placeholder="请输入您的姓名" /><br/><br/>
+        <input type="number" placeholder="请输入您的手机号码" />
+        <view class="num2">
+          <picker range="{{array}}" value="{{selectindex}}" bindchange="onPicker">
+          参加人数:{{array[selectindex]}}
+          </picker>
+        </view>
+        <button class="btn_sub" bindtap="gotoWonderfulMoment">点击上传美好瞬间</button>
+        <button class="btn_sub" form-type="submit" bindtap="gotoInfo">提交</button>
+      </form>
+</view>
+  </view>
+  <view class="loginOut" bindtap="loginOut">
+       <button style="border-radius:98rpx;background-color:#2b4b6b;color: white;">退出登录</button>
+  </view>
+  <button class="btn_chat" bindtap="gotoServices">客服中心</button>
+</block>

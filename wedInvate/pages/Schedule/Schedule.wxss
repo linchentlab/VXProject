@@ -1,0 +1,31 @@
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30rpx;
+}
+
+.schedule-header {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30rpx;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.schedule-time {
+  width: 160rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+
+.schedule-text {
+  font-size: 28rpx;
+  color: #666;
+}
